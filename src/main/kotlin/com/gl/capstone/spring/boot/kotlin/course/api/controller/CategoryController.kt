@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
 
-@RequestMapping("/api/category")
+@RequestMapping("/api/v1/category")
 @RestController
 class CategoryController(
     private val categoryService: CategoryService
